@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TwoSetViolin Fan Haven | Practice 40 Hours a Day!</title>
+  <!-- Google Fonts for Classical & Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-symbol">🎻</span> TwoSet<span class="logo-accent">Fanbase</span>
+      </a>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#bio">Biography</a></li>
+          <li><a href="#facts">Fun Facts</a></li>
+          <li><a href="#generator">Excuse Generator</a></li>
+          <li><a href="#practice-room">Practice Room</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light/dark theme">
+          <span class="toggle-icon sun-icon">☀️</span>
+          <span class="toggle-icon moon-icon">🌙</span>
+        </button>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-content-wrapper container">
+        <div class="hero-text">
+          <span class="hero-badge">A Tribute to Brett & Eddy</span>
+          <h1 class="hero-title">TwoSetViolin</h1>
+          <p class="hero-subtitle">Bringing classical music to the masses through comedy, camaraderie, and absolute dedication to practice.</p>
+          <div class="hero-actions">
+            <a href="#generator" class="btn btn-primary">Need Practice Excuses?</a>
+            <a href="#practice-room" class="btn btn-secondary">Tune Your Violin</a>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <div class="image-frame">
+            <!-- TwoSet Violin Logo -->
+            <img id="mainHeroImage" src="images/Twoset_Violin_Logo.jpg" alt="TwoSetViolin Logo" class="hero-image">
+          </div>
+        </div>
+      </div>
+      <div class="section-divider">
+        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,32L80,42.7C160,53,320,75,480,74.7C640,75,800,53,960,42.7C1120,32,1280,32,1360,32L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="currentColor"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="bio" class="bio-section container">
+      <div class="section-header">
+        <h2 class="section-title">The Story of Brett & Eddy</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="bio-grid">
+        <div class="bio-text-column">
+          <div class="bio-card card-glow">
+            <h3>Who Are They?</h3>
+            <p><strong>TwoSetViolin</strong> is an Australian-Taiwanese classical violin duo consisting of <strong>Brett Yang</strong> and <strong>Eddy Chen</strong>. Meeting in youth orchestra, they transitioned from professional orchestral careers to full-time content creators, combining classical violin culture with internet comedy.</p>
+          </div>
+          <div class="bio-card card-glow" style="margin-top: 1.5rem;">
+            <h3>The Mission & Impact</h3>
+            <p>Through comedy skits, music challenges, and educational content, Brett and Eddy dismantled the formal barriers around classical music. Their videos make classical repertoire and instrument practice fun, engaging, and accessible to millions.</p>
+          </div>
+        </div>
+        <div class="bio-image-column">
+          <div class="image-frame">
+            <img src="images/two-sets-world-tour-260326.png" alt="Brett and Eddy Live World Tour" class="bio-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section id="facts" class="facts-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">The Lore & Inside Jokes</h2>
+          <p class="section-tagline">Essential concepts for every "Ling Ling Wannabe" fan</p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="facts-grid">
+          <!-- Card 1 -->
+          <article class="fact-card">
+            <div class="fact-icon">🕒</div>
+            <h3 class="fact-title">Practise 40 Hours a Day</h3>
+            <p class="fact-desc">While standard physics limits us to 24 hours, true violin prodigies practice 40 hours daily. Are you practicing enough?</p>
+            <span class="fact-tag">Meme Lore</span>
+          </article>
+          <!-- Card 2 -->
+          <article class="fact-card">
+            <div class="fact-icon">👑</div>
+            <h3 class="fact-title">Ling Ling</h3>
+            <p class="fact-desc">The ultimate, legendary prodigy who plays perfectly, won every competition before birth, and is always better than you.</p>
+            <span class="fact-tag">Mythical Hero</span>
+          </article>
+          <!-- Card 3 -->
+          <article class="fact-card">
+            <div class="fact-icon">🚫</div>
+            <h3 class="fact-title">The Viola Rivalry</h3>
+            <p class="fact-desc">A running, light-hearted orchestral rivalry roasting the viola's tuning, timing, and player stereotypes.</p>
+            <span class="fact-tag">Orchestra Humor</span>
+          </article>
+          <!-- Card 4 -->
+          <article class="fact-card">
+            <div class="fact-icon">⚡</div>
+            <h3 class="fact-title">Sacrilegious!</h3>
+            <p class="fact-desc">Used to describe anyone holding a bow incorrectly, faking playing in movies, or playing incorrectly at 15 notes per second.</p>
+            <span class="fact-tag">Inside Joke</span>
+          </article>
+          <!-- Card 5 -->
+          <article class="fact-card">
+            <div class="fact-icon">🧋</div>
+            <h3 class="fact-title">Bubble Tea Fuel</h3>
+            <p class="fact-desc">The essential beverage and fuel source for Brett and Eddy during long editing and practicing sessions.</p>
+            <span class="fact-tag">Lifestyle</span>
+          </article>
+          <!-- Card 6 -->
+          <article class="fact-card">
+            <div class="fact-icon">🎻</div>
+            <h3 class="fact-title">"Play it Slowly..."</h3>
+            <p class="fact-desc">"If you can play it slowly, you can play it quickly." The legendary golden rule of practice—and a favorite meme template.</p>
+            <span class="fact-tag">Golden Rule</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Section: Quote Generator -->
+    <section id="generator" class="generator-section container">
+      <div class="generator-card card-glow">
+        <div class="generator-header">
+          <span class="musical-clef">𝄞</span>
+          <h2>Ling Ling 40-Hours Practice Excuse Generator</h2>
+          <p class="helper-text">Need an excuse to tell your friends why you are staying home? Or just some comedic pressure from Ling Ling? Click below!</p>
+        </div>
+        <div class="generator-display">
+          <p id="quoteText" class="quote-text">"Click the button below to summon an excuse from the practice gods..."</p>
+          <p id="quoteAuthor" class="quote-author">— Practice Lore</p>
+        </div>
+        <div class="generator-action">
+          <button id="generateBtn" class="btn btn-primary btn-pulse">Generate 40-Hour Excuse</button>
+        </div>
+        <div class="disclaimer-note">
+          Note: Quotes are humorous fan-style jokes inspired by TwoSet lore and do not represent real direct quotes.
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Interactive Feature: Violin Tuner (Web Audio API) -->
+    <section id="practice-room" class="practice-section">
+      <div class="container">
+        <div class="practice-card card-glow">
+          <div class="section-header">
+            <h2 class="section-title">The Ling Ling Practice Room</h2>
+            <p class="section-tagline">Tune your strings before you practice. Click a peg to hear the exact frequency synthesized live in your browser!</p>
+            <div class="title-underline"></div>
+          </div>
+          
+          <div class="tuner-container">
+            <div class="violin-head-visual">
+              <div class="peg peg-left" data-note="G" data-freq="196.00">
+                <span class="peg-label">G3</span>
+                <button class="peg-button" aria-label="Play G string (196 Hertz)">G</button>
+              </div>
+              <div class="peg peg-left" data-note="D" data-freq="293.66">
+                <span class="peg-label">D4</span>
+                <button class="peg-button" aria-label="Play D string (293.66 Hertz)">D</button>
+              </div>
+              <div class="violin-pegbox">
+                <div class="string string-g"></div>
+                <div class="string string-d"></div>
+                <div class="string string-a"></div>
+                <div class="string string-e"></div>
+              </div>
+              <div class="peg peg-right" data-note="A" data-freq="440.00">
+                <button class="peg-button" aria-label="Play A string (440 Hertz)">A</button>
+                <span class="peg-label">A4</span>
+              </div>
+              <div class="peg peg-right" data-note="E" data-freq="659.25">
+                <button class="peg-button" aria-label="Play E string (659.25 Hertz)">E</button>
+                <span class="peg-label">E5</span>
+              </div>
+            </div>
+            
+            <div class="tuner-controls">
+              <button id="stopAudioBtn" class="btn btn-secondary" disabled>Mute Tuner</button>
+              <div class="note-status-box">
+                <span class="status-label">Now Playing:</span>
+                <span id="activeNoteDisplay" class="status-value">—</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p class="copyright">&copy; 2026 TwoSetViolin Fan Haven. Built for university educational purposes.</p>
+      <p class="credits">Designed with 🎻 for the Ling Ling Wannabe community. All code is vanilla HTML/CSS/JS.</p>
+      <div class="social-links">
+        <span class="link-label">Check out their official channels:</span>
+        <a href="https://www.youtube.com/user/twosetviolin" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://www.instagram.com/twosetviolin/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom script file -->
+  <script src="script.js"></script>
+</body>
+</html>
