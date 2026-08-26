@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const htmlElement = document.documentElement;
 
-  // Check for saved theme preference in localStorage, default to dark
-  const savedTheme = localStorage.getItem('theme') || 'dark';
+  // Check for saved theme preference in localStorage, default to light
+  const savedTheme = localStorage.getItem('theme') || 'light';
   htmlElement.setAttribute('data-theme', savedTheme);
 
   if (themeToggleBtn) {
