@@ -1,0 +1,121 @@
+/* styles.css - Challenge #1 (Skeleton) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBF8FF;
+    color: black;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #FC1274;
+    text-align: center; 
+    margin: 20px auto;
+}
+
+.tagline {
+    font-style: italic;
+    text-align: center;
+    color:#333;
+    margin: 20px auto;
+}
+
+.mascot-placeholder {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 2px 25px;
+    margin: 20px auto;  
+    width: fit-content;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+#mascot-image {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.about {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.buy-tickets, .make-donation {
+  width: auto;
+  max-width: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.buy-tickets {
+  background-color: #2ECC71;
+  box-shadow: 0 4px 10px rgba(46, 204, 113, 0.6);
+
+}
+
+.make-donation {
+  background-color: #6C5CE7;
+  box-shadow: 0 4px 18px rgba(252, 18, 116, 0.6);
+}
+
+.buy-tickets:hover, .make-donation:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.buy-tickets:hover {
+  background-color: #27AE60;
+}
+
+.make-donation:hover {
+  background-color: #5b4bc4;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px auto;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 450px) {
+  .actions {
+    flex-direction: column;
+  }
+  
+  .buy-tickets, .make-donation {
+    width: 150px;
+  }
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  padding-top: 15px;
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+}
